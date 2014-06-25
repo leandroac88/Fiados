@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Web app para controle de fiados.">
 	<meta charset="UTF-8">
+	
 	<title>Fiados</title>
+
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div id="wrapper">
 		<nav>
 			<form action="" id="search-box">
-				<input type="text" name="" id="search-field">
-				<button id="search-btn"></button>
+				<input type="text" name="search" id="search-field" class="btn">
+				<button id="search-btn" class="btn">o-</button>
 			</form>
-			<a href="" id="new-entry" class="btn"></a>
+			<a href="" id="new-entry" class="btn">+</a>
 		</nav>
 		<div id="main">
-			
+			<div id="lista-fiados">
+				<header>
+					<ul>
+						<li>
+							<h3>Nome</h3>
+						</li>
+						<li>
+							<h3>Telefone</h3>
+						</li>
+						<li>
+							<h3>Total</h3>
+						</li>
+					</ul>
+				</header>
+				<div class="fiado">
+					<header>
+						<ul>
+							<li>
+								<h3>Nome</h3>
+							</li>
+							<li>
+								<h3>Telefone</h3>
+							</li>
+							<li>
+								<h3>Total</h3>
+							</li>
+						</ul>
+					</header>
+					<div class="detalhes">
+						<table>
+							<th>
+								<td>Data</td>
+								<td>Itens</td>
+								<td>Valor</td>
+							</th>
+							<tr>
+								<td>23/06/2014</td>
+								<td>Linha, Fita, Agulha</td>
+								<td>R$ 20,00</td>
+							</tr>
+							<tr>
+								<td>21/06/2014</td>
+								<td>Agulha</td>
+								<td>R$ 3,50</td>
+							</tr>
+							<tr>
+								<td>19/06/2014</td>
+								<td>Barbante, Lã, Agulha</td>
+								<td>R$ 50,00</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
